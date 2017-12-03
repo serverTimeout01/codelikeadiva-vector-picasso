@@ -1,7 +1,7 @@
 const config = {
-  author: "Füge hier dein Namen ein",
-  title: "Gebe deinem Kunstwerk einen Titel",
-  instructions: "Damit wir besser verstehen wie dein Kunstwerk generiert wird, schreibe bitte eine kurze Erklärung dazu."
+  author: "Thomas Vogt",
+  title: "Hulkanizer",
+  instructions: "Illustrtion uses camera capturing and microphone speech recognition.. Demomode (?demo=true) also uses external image as well as an external font. Therefore you need to enable CORS locally (browserextension or call parameters)."
 };
 
 export default config;

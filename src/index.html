@@ -7,24 +7,27 @@
     <link rel="shortcut icon" href="https://www.diva-e.com/fileadmin/templates/fluid/images/favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <h1><%= htmlWebpackPlugin.options.pageTitle %></h1>
-    <h2><%= htmlWebpackPlugin.options.challengeTitle %></h2>
 
+    <!--  
+      <h1><%= htmlWebpackPlugin.options.pageTitle %></h1>
+      <h2><%= htmlWebpackPlugin.options.challengeTitle %></h2>
+    -->
+    saturation (0-100): <input id="sat" type="number" value="50">
+    speechbobble size: <input id="sbf" type="number" value="50">
+    speech recognition: <input id="enableSpeechReg" type="checkbox" >
+    <br/>
+    speechbobble text: <input id="sph" type="text" value="POW!!!">
+     <input id="sph2" type="text" value="Challenge accepted">
+     <input id="sph3" type="text" value="Oh yeah!">
+    <br />
     <div id="artwork-border">
-      <div id="artwork-wrapper" style="width: 842px; height: 596px;">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="842" height="596">
-          <!-- replace content of SVG with your art [START] -->
-          <path d="M 100 100 L 300 100 L 200 300 z" fill="purple" stroke="none" />
-          <path d="M 600 300 L 500 400 L 700 400 z" fill="lime" stroke="none" />
-          <!-- replace content of SVG with your art [END] -->
-        </svg>
-      </div>
+      <div id="artwork-wrapper" style="width: 842px; height: 596px;"></div>
     </div>
 
     <div id="credits">
       <div class="block">
-        <label class="title">title of your artwork</label>
-        <label class="artist">your name</label>
+        <label class="title">Title</label>
+        <label class="artist">Artist</label>
       </div>
     </div>
 
